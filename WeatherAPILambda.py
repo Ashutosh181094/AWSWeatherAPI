@@ -6,7 +6,7 @@ def lambda_handler(event, context):
     # TODO implement
     
     city_name="Orlando"
-    api_key="57aeac39dcccdc7e7d6ba18f6776e97a"
+    api_key="YOUR_API_KEY"
     
     url="http://api.openweathermap.org/data/2.5/weather?q="+city_name+"&appid="+api_key+"&units=metric"
     print("URL for API: ",url)
